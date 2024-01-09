@@ -63,3 +63,4 @@
 
 ### Third-party packages
 - Chakra UI (For UI components)
+- React Icons

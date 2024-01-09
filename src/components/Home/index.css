@@ -1,0 +1,118 @@
+header {
+  background: url("https://static-assets-amberstudent.imgix.net/images/website-banner.jpg?auto=format&q=10");
+  background-size: cover;
+  height: 45vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.linear-gradient {
+  background: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0) 65.1%
+  );
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: none;
+  z-index: 1 !important;
+}
+
+header * {
+  position: relative;
+  z-index: 2;
+}
+
+.banner-container {
+  align-self: center;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.header-heading {
+  font-size: 45px;
+}
+
+.header-description {
+  text-align: center;
+  font-size: 18px;
+}
+
+.search-container {
+  margin-top: 50px;
+  display: flex;
+  width: 60%;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 80px;
+  display: flex;
+  max-width: 700px;
+}
+
+.badge-icon{
+  color: #ED3A56;
+}
+
+.badge-properties {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex ;
+  padding:10px 20px;
+  border-radius: 50px;
+  align-items: center;
+  gap:5px;
+  font-size: 14px;
+}
+
+.header-badges{
+  margin-top: 10px;
+  display: flex;
+  gap:20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.search-input {
+  flex-grow: 1;
+  height: 100%;
+  outline: none;
+  color: black;
+}
+
+@media screen and (min-width: 1440px) {
+  header {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner-container {
+    padding: 0 20px;
+  }
+
+  header {
+    background-position: 19%;
+  }
+
+  .header-heading {
+    font-size: 35px;
+  }
+
+  .header-description {
+    font-size: 16px;
+  }
+
+  .header-badges{
+    max-width: 600px;
+    
+  }
+}

@@ -1,0 +1,7 @@
+.feature-card {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(237, 58, 86, 0.08) 0%,
+    rgba(237, 58, 86, 0) 100%
+  );
+}
