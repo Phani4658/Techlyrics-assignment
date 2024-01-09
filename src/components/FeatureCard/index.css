@@ -4,4 +4,38 @@
     rgba(237, 58, 86, 0.08) 0%,
     rgba(237, 58, 86, 0) 100%
   );
+  padding:10px 15px;
 }
+
+
+.feature-image{
+    height: 35px;
+}
+
+
+.feature-card-container{
+    width: 90%;
+}
+
+.feature-text{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media screen and (min-width:767px){
+    .feature-card-container{
+        width: 48%;
+    }
+}
+
+
+
+@media screen and (min-width:1080px){
+    .feature-card{
+        padding: 30px 10px;
+    }
+    .feature-card-container{
+        width: 20%;
+    }
+}
+
